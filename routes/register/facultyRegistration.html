@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextResultz | Register Faculty</title>
+  <link rel="stylesheet" href="./facultyRegistration.css">
+  <link rel="icon" href="./img/favicon.ico">
+  <script src="https://kit.fontawesome.com/552542671f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="nav">
+    <i class="fa-solid fa-house" onclick="openPage('./index.html')"></i>
+    <div class="headin">
+      NextResultz !
+    </div>
+  </div>
+  <div class="main">
+    <div class="container">
+      <div class="title">Register as a Faculty!</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Employee ID</span>
+              <input type="text" placeholder="Enter employee ID " required>
+            </div>
+            <div class="input-box">
+              <span class="details">University mail</span>
+              <input type="text" placeholder="Enter your University email" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Department</span>
+              <select required name="sem" id="sem">
+                <option disabled selected value> - select department - </option>
+                <option value="Sem I">BTech CSE</option>
+                <option value="Sem II">BTech BioE</option>
+                <option value="Sem III">BCA</option>
+                <option value="Sem IV">BBA</option>
+                <option value="Sem V">MBA</option>
+                <option value="Sem VI">MTech</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input type="text" placeholder="Enter your number" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Personal mail</span>
+              <input type="email" placeholder="Enter your persinal mail" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input type="text" id="pswd" placeholder="Enter your password" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Confirm Password</span>
+              <input type="password" id="pswd-cnf" placeholder="Confirm your password" required>
+            </div>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Other</span>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Register">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./facultyRegistration.js"></script>
+</body>
+
+</html>

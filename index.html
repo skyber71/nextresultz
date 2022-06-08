@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextResultz | Home</title>
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/552542671f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <i class="fa-solid fa-house" onclick="openPage('./index.html')"></i>
+        <div class="headin">Welcome to NextResultz !</div>
+    </div>
+    <div class="role">
+        Please choose your role!
+    </div>
+    <div class="main">
+        <div class="student">
+            <div class="student-content" onclick="openPage('./studentLogin.html')">
+                <i class="fa-solid fa-user-graduate"></i>
+                <div class="btn">
+                    <p class="button">I am a student!</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="faculty">
+            <div class="faculty-content" onclick="openPage('./facultyLogin.html')">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <div class="btn">
+                    <p class="button">I am a faculty!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <span>Designed By <a href="https://www.linkedin.com/in/iamkiranyadav/" target="_blank">Kiran Yadav</a> (Under
+            Development) | <span class="far fa-copyright"></span>NextResultz 2022 All rights reserved.
+        </span><br>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
